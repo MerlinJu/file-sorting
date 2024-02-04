@@ -41,3 +41,6 @@ for file in allfiles:
             destination = os.path.join(directory, category, file)
             #renames or assigns the old file the the new destiantion 
             os.rename(file, destination)
+            
+
+print('sleep')
